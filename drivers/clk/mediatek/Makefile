@@ -1,4 +1,4 @@
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += -Wno-dangling-pointer
 
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/
 
